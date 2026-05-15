@@ -1,0 +1,10 @@
+[
+    {
+        "source": "presentation.txt",
+        "content": "Future AI Roadmap: Integrating LLM with hardware acceleration."
+    },
+    {
+        "source": "specs.txt",
+        "content": "Raydium AI Team Specification: High-performance inference engine for Display drivers."
+    }
+]
