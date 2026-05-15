@@ -1,0 +1,15 @@
+{
+  "name": "document_processor",
+  "description": "自動解析並清洗 PDF 與 PPTX 技術文件，將其轉換為結構化 JSON。",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "file_path": {
+        "type": "string",
+        "description": "要處理的文件完整路徑"
+      }
+    },
+    "required": ["file_path"]
+  },
+  "entry_point": "processor_skill.py:run_skill"
+}
