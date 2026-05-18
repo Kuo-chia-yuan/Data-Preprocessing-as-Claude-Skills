@@ -43,7 +43,7 @@ python ingest.py
 
 ## ✅ 執行日誌與驗證 (Run Logs)
 
-透過以下測試指令，可以驗證 Claude 是否能成功調用封裝好的 Skill 邏輯。這行指令模擬了 AI Agent 在獲取文件路徑後，呼叫工具進行結構化處理的完整過程：
+透過以下測試指令，可以驗證 Claude Code 是否能成功調用封裝好的 Skill 邏輯。這行指令模擬了 AI Agent 在獲取文件路徑後，呼叫工具進行結構化處理的完整過程：
 
 ```powershell
 python -c "from processor_skill import run_skill; print(run_skill('specs.txt'))"
